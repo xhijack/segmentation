@@ -7,7 +7,7 @@ from scipy.ndimage import generic_filter
 from scipy.spatial.distance import cdist
 from numpy.random import rand
 import tools
-
+import pandas as pd
 
 ####################
 # C99
@@ -82,7 +82,7 @@ def gensig_euclidean(X,minlength=1,maxlength=None):
         if i == 0:
             return css[j-1] - 1./j * ((cs[j-1])**2).sum() 
         else: 
-            return ( css[j-1]-css[i-1] ) - 1./(j-i) * ((cs[j-1] - cs[i-1])**2).sum() 
+            return (css[j-1]-css[i-1] ) - 1./(j-i) * ((cs[j-1] - cs[i-1])**2).sum()
     return sigma
 
 
@@ -131,7 +131,8 @@ def gensig_model(X, minlength=1, maxlength=None, lam=0.0):
         if a > 0:
             tot -= cs[a-1]
         signs = np.sign(tot)
-        return -over_sqrtD*(signs*tot).sum()
+        # print("sigma (a b):",a,b,-over_sqrtD * (signs*tot).sum())
+        return -over_sqrtD * (signs*tot).sum()
     return sigma
 
 
@@ -166,16 +167,38 @@ def dpsplit(n,k, sig):
     segtable[:,0] = [ sig(0,j+1) for j in xrange(N) ]
     segindtable = np.zeros((N,K), dtype='int') - 1
 
+    def to_csv():
+        import csv
+
+        results = []
+        with open("dp_value.csv") as csvfile:
+            reader = csv.reader(csvfile, quoting=csv.QUOTE_NONNUMERIC)  # change contents to floats
+            for row in reader:  # each row is a list
+                results.append(row)
+
+
     # fill up the table in a clever order
+    print(K, N)
     for k in xrange(1,K):
         for j in xrange(k,N):
             #fill the j,k element
-            ans = min( ( (segtable[l,k-1] + sig(l+1,j+1), l+1 )
-                for l in xrange(k-1,j) ) )
+            ans = min(((segtable[l,k-1] + sig(l + 1, j + 1), l + 1)
+                         for l in xrange(k - 1, j)))
+
+            # ans = ()
+            # for l in xrange(k-1,j):
+            #     ans = min((((segtable[l, k - 1] + sig(l+1,j+1), l+1 ))))
+            # print(k,j, K, N)
             segtable[j,k] = ans[0]
             segindtable[j,k] = ans[1]
 
     # read out the path
+    pd_segtable = pd.DataFrame(segtable)
+    pd_segtable.to_csv('seg_.csv', header=False)
+
+    pd_segindtable = pd.DataFrame(segindtable)
+    pd_segindtable.to_csv('seg_in.csv',header=False)
+
     current_pointer = segindtable[-1,K-1]
     path = [current_pointer]
     for k in xrange(K-2, 0, -1):
@@ -198,7 +221,7 @@ def dpsplit_general(n,k, sig, combine=lambda a,b: a+b, key=lambda a: a, d=1):
         segtable = np.zeros((n,K,d)) + np.nan
     else:
         segtable = np.zeros((n,K)) + np.nan
-    segtable[:,0] = [ sig(0,j+1) for j in xrange(N) ]
+    segtable[:,0] = [ sig(0,j+1) for j in xrange(N)]
     segindtable = np.zeros((N,K), dtype='int') - 1
 
     # fill up the table in a clever order
@@ -232,15 +255,39 @@ def greedysplit(n, k, sigma):
 
     def score(splits, sigma):
         splits = sorted(splits)
-        return sum( sigma(a,b) for (a,b) in tools.seg_iter(splits) )
+
+        result = []
+        # result = sum( sigma(a,b) for (a,b) in tools.seg_iter(splits) )
+
+        for (a,b) in tools.seg_iter(splits):
+            result.append(sigma(a,b))
+
+        # print(splits, result)
+        return sum(result)
+
+    new_score = []
 
     while k > 0:
         usedinds = set(splits)
-        new = min( ( score( splits + [i], sigma), splits + [i] )
-                for i in xrange(1,n) if i not in usedinds )
+        print(usedinds)
+        # new = min( ( score( splits + [i], sigma), splits + [i] )
+        #         for i in xrange(1,n) if i not in usedinds )
+        new_arr = []
+        # new_arr = [( score( splits + [i], sigma), splits + [i] )
+        #         for i in xrange(1,n) if i not in usedinds]
+
+        for i in xrange(1, n):
+            if i not in usedinds:
+                new_arr.append([score(splits + [i], sigma), splits + [i]])
+
+        new = min(new_arr)
+        # print("useinds:", usedinds, new)
+        new_score.append(new)
+        # print("new score:", new_score)
         splits = new[1]
         s = new[0]
         k -= 1
+
     return sorted(splits), s
 
 def greedysplit_general(n, k, sigma, combine=lambda a,b: a+b, key=lambda a: a):

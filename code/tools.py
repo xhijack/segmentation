@@ -8,7 +8,7 @@ from nltk.stem import PorterStemmer
 
 stopword_set = set()
 
-with open("/home/aaa244/storage/segmentation/data/STOPWORD.list") as f:
+with open("../data/STOPWORD.list") as f:
     for line in f:
         stopword_set.add(line.strip())
 # add punctuation
