@@ -115,6 +115,20 @@ def gensig_model_old(X, minlength=1, maxlength=None, lam=0.0):
         # return -X[a:b].dot(rep).sum() + lam*np.sqrt(length)/np.log(N)
     return sigma
 
+def avg_sentence_vector(words, model, num_features, index2word_set):
+    #function to average all words vectors in a given paragraph
+    featureVec = np.zeros((num_features,), dtype="float32")
+    nwords = 0
+
+    for word in words:
+        if word in index2word_set:
+            nwords = nwords+1
+            featureVec = np.add(featureVec, model[word])
+
+    if nwords>0:
+        featureVec = np.divide(featureVec, nwords)
+    return featureVec
+
 def gensig_model(X, minlength=1, maxlength=None, lam=0.0):
     N,D = X.shape
     over_sqrtD = 1./np.sqrt(D)
@@ -131,6 +145,7 @@ def gensig_model(X, minlength=1, maxlength=None, lam=0.0):
         if a > 0:
             tot -= cs[a-1]
         signs = np.sign(tot)
+        # print("A: {} B: {}, Nilai sigma: {}".format(a,b, -over_sqrtD * (signs*tot).sum()))
         # print("sigma (a b):",a,b,-over_sqrtD * (signs*tot).sum())
         return -over_sqrtD * (signs*tot).sum()
     return sigma
@@ -182,15 +197,18 @@ def dpsplit(n,k, sig):
     for k in xrange(1,K):
         for j in xrange(k,N):
             #fill the j,k element
-            ans = min(((segtable[l,k-1] + sig(l + 1, j + 1), l + 1)
-                         for l in xrange(k - 1, j)))
+            # ans_ = [(segtable[l,k-1] + sig(l + 1, j + 1), l + 1)
+            #              for l in range(k - 1, j)]
+            ans_ = []
+            for l in range(k-1,j):
+                ans_.append((segtable[l, k - 1] + sig(l+1,j+1), l+1 ))
 
+            ans = min(ans_)
             # ans = ()
-            # for l in xrange(k-1,j):
-            #     ans = min((((segtable[l, k - 1] + sig(l+1,j+1), l+1 ))))
             # print(k,j, K, N)
             segtable[j,k] = ans[0]
             segindtable[j,k] = ans[1]
+        print("{} {}".format(k, K))
 
     # read out the path
     pd_segtable = pd.DataFrame(segtable)
@@ -259,10 +277,11 @@ def greedysplit(n, k, sigma):
         result = []
         # result = sum( sigma(a,b) for (a,b) in tools.seg_iter(splits) )
 
+        print("SCORING:", splits)
         for (a,b) in tools.seg_iter(splits):
             result.append(sigma(a,b))
 
-        # print(splits, result)
+        print("SCORING SUM:", splits, sum(result))
         return sum(result)
 
     new_score = []
@@ -276,9 +295,15 @@ def greedysplit(n, k, sigma):
         # new_arr = [( score( splits + [i], sigma), splits + [i] )
         #         for i in xrange(1,n) if i not in usedinds]
 
+        print("menghitung ke K-",k)
         for i in xrange(1, n):
             if i not in usedinds:
                 new_arr.append([score(splits + [i], sigma), splits + [i]])
+
+        print("pemilihan batas:", min(new_arr))
+        # import pdb
+        # pdb.set_trace()
+        print("sorted batas:", sorted(min(new_arr)[1]))
 
         new = min(new_arr)
         # print("useinds:", usedinds, new)

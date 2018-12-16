@@ -7,6 +7,7 @@ import splitters
 import representations
 import re
 import sys
+import uts
 
 K = int(sys.argv[1])
 infile = sys.argv[2]
@@ -20,15 +21,17 @@ def load_file_txt(source):
     text = file.read()
     return text.split("\n")
 
-data = load_file_txt('id.albaqarah.original.txt')
+data = load_file_txt('id.albaqarah.cut.txt')
 
 sentences = " ".join(data)
-# for i in data:
-#     sentences += i.split(",")[1]
-#     sentences = "{} ".format(sentences)
-#
-# import pdb
-# pdb.set_trace()
+for i in data:
+    try:
+        sentences += i.split(",")[1]
+        sentences = "{} ".format(sentences)
+    except:
+        import pdb
+        pdb.set_trace()
+
 txt = sentences
 
 punctuation_pat = re.compile(r"""([!"#$%&\'()*+,-./:;<=>?@[\\\]^_`{|}~])""")
@@ -57,6 +60,8 @@ def clean_text(txt):
 txt = clean_text(txt).split()
 vecs = np.load("vecs-bahasa.npy")
 words = np.load("vocab-bahasa.npy")
+# vecs = np.load("vecs.npy")
+# words = np.load("vocab.npy")
 word_lookup = {w:c for c,w in enumerate(words) }
 
 # print "article length:", len(txt)
@@ -80,11 +85,11 @@ X = np.array(X)
 # print "X length:", X.shape[0]
 
 sig = splitters.gensig_model(X)
-# print "Splitting..."
-# splits,e = splitters.greedysplit(X.shape[0], K, sig)
+print "Splitting..."
+splits,e = splitters.greedysplit(X.shape[0], K, sig)
 
-print "Splitting dynamic programming"
-splits, e = splitters.dpsplit(X.shape[0], K, sig)
+# print "Splitting dynamic programming"
+# splits, e = splitters.dpsplit(X.shape[0], K, sig)
 
 print splits
 print "Refining..."
@@ -104,12 +109,13 @@ with open("result{}.txt".format(K),"w") as f:
     for spl in splitsr:
         k = mapperr.get(spl,len(txt))
         f.write(" ".join(txt[prev:k]).replace("NL","\n"))
-        f.write("\nBREAK\n")
+        b = "\nBREAK({})\n".format(k)
+        f.write(b)
         prev = k
 
 with open("word_index{}.txt".format(K), "w") as f:
     for index, word in enumerate(txt):
-        f.write("{} ({})".format(index, word))
+        f.write("{}".format(index, word))
 
 
 print "Done"
