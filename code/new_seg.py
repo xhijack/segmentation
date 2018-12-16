@@ -192,17 +192,17 @@ def NewSegV1(sent_tokenized, window=5, K=10):
         K = 2
         sig = gensig_model(X[i:cursor])
         # print("window:", window)
-        # print("trying segment from {} to {}".format(i, cursor))
+        print("trying segment from {} to {}".format(i, cursor))
         spl, e = greedysplit(X[i:cursor].shape[0], K, sig)
 
         stdeviation = np.std([a[0] for a in e])
-        if stdeviation > 0.021:
+        print("cut or no:", np.std([a[0] for a in e]), splits, spl)
+        if stdeviation > 0.0206:
             i = spl[1]
             if len(splits) == 1:
                 new_seg1 = i
             else:
                 new_seg1 = splits[-1] + i
-            # print("new_seg:", new_seg1, np.std([a[0] for a in e]))
             splits.append(new_seg1)
             i = new_seg1
             cursor = i + window
@@ -263,7 +263,6 @@ def NewSeg(sent_tokenized, window=5, K=10):
             new_seg1 = i
         else:
             new_seg1 = splits[-1] + i
-        print("new_seg:", new_seg1, np.std([a[0] for a in e]))
         splits.append(new_seg1)
         i = new_seg1
         cursor = i + window
@@ -326,60 +325,62 @@ if __name__ == "__main__":
     for sw in isStopWord:
         for ist in isStemmed:
             # if sw and ist: #check all true. please remove after finished
+            for window in [4, 6, 8, 10]:
 
-            for expe in data:
-                sents, expected = load_data(expe[0])
-                sent_tokenized = []
+                for expe in data:
+                    sents, expected = load_data(expe[0])
+                    sent_tokenized = []
+                    for sent in sents:
+                        words = tokenize.word_tokenize(sent)
+                        if sw:
+                            if ist:
+                                sent_tokenized.append(
+                                    [stem(word.lower()) for word in words if
+                                     word.lower() not in stopword and word.isalpha()])
+                                # for word in words:
+                                #     if word.lower() not in stopword and word.isalpha():
+                                #         sent_tokenized.append(stem(word.lower()))
 
-                for sent in sents:
-                    words = tokenize.word_tokenize(sent)
-                    if sw:
-                        if ist:
-                            sent_tokenized.append(
-                                [stem(word.lower()) for word in words if
-                                 word.lower() not in stopword and word.isalpha()])
-                            # for word in words:
-                            #     if word.lower() not in stopword and word.isalpha():
-                            #         sent_tokenized.append(stem(word.lower()))
-
+                            else:
+                                sent_tokenized.append(
+                                    [word.lower() for word in words if word.lower() not in stopword and word.isalpha()])
                         else:
-                            sent_tokenized.append(
-                                [word.lower() for word in words if word.lower() not in stopword and word.isalpha()])
-                    else:
-                        if ist:
-                            sent_tokenized.append(
-                                [stem(word.lower()) for word in words if word.isalpha()])
-                        else:
-                            sent_tokenized.append(
-                                [word.lower() for word in words if word.isalpha()])
+                            if ist:
+                                sent_tokenized.append(
+                                    [stem(word.lower()) for word in words if word.isalpha()])
+                            else:
+                                sent_tokenized.append(
+                                    [word.lower() for word in words if word.isalpha()])
 
-                # tt = TextTilingTokenizer(demo_mode=False, stopwords=sw, k=56, w=20)
-                # s, ss, d, b = tt.tokenize([" ".join(sent) for sent in sent_tokenized])
+                    # tt = TextTilingTokenizer(demo_mode=False, stopwords=sw, k=56, w=20)
+                    # s, ss, d, b = tt.tokenize([" ".join(sent) for sent in sent_tokenized])
 
-                for method in methods:
-                    # try:
-                    result = method(sent_tokenized, 6, expe[1])
-                    diff = windowdiff(expected, result, 6)
-                    pk_diff = pk(expected, result, 6)
-                    # print(result, expected)
+                    for method in methods:
+                        # try:
+                        result = method(sent_tokenized, window, expe[1])
+                        diff = windowdiff(expected, result, window)
+                        pk_diff = pk(expected, result, window)
+                        # print(result, expected)
 
-                    record = {
-                        'File': expe[0],
-                        'Method Name': method.__name__,
-                        'window': 6,
-                        'hypt segment': result,
-                        'expe segment': expected,
-                        'window diff': diff
-                    }
-                    results.append(record)
-                    print(
-                        "Method {} | File: {} | StopWord: {} | Stemmed: {} | result: {} | {} {}".format(
-                            method.__name__, expe,
-                            sw, ist, diff, expected, result))
-                    # except:
-                    #     import pdb
+                        record = {
+                            'File': expe[0],
+                            'Method Name': method.__name__,
+                            'window': window,
+                            'hypt segment': result,
+                            'expe segment': expected,
+                            'window diff': diff
+                        }
+                        results.append(record)
+                        print(
+                            "Method {} | File: {} | StopWord: {} | Stemmed: {} | result: {} | {} {}".format(
+                                method.__name__, expe,
+                                sw, ist, diff, expected, result))
+                        # except:
+                        #     import pdb
 
-                    # pdb.set_trace()
-                print("===")
+                        # pdb.set_trace()
+                    print("===")
 
-    print pd.DataFrame(results).to_string()
+    df = pd.DataFrame(results)
+    print(df.to_string())
+    print(df.groupby(['Method Name', 'window']).mean())
