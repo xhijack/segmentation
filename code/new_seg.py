@@ -307,7 +307,7 @@ if __name__ == "__main__":
         ['data/sintesis.extreme7.txt', 9],
         ['data/sintesis.extreme8.txt', 7],
         ['data/sintesis.extreme9.txt', 9],
-        ['data/sintesis.extreme10.txt', 10],
+        ['data/sintesis.extreme10.txt', 9],
         # ['data/sintesis.kompas.android.smooth.txt', 7],
         # ['data/sintesis.kompas.android.smooth2.txt', 3],
         # ['data/sintesis.kompas.politik.smooth.txt', 3],
@@ -325,7 +325,7 @@ if __name__ == "__main__":
     for sw in isStopWord:
         for ist in isStemmed:
             # if sw and ist: #check all true. please remove after finished
-            for window in [4, 6, 8, 10]:
+            for window in [6]:
 
                 for expe in data:
                     sents, expected = load_data(expe[0])
