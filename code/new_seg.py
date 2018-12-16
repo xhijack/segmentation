@@ -157,9 +157,6 @@ def word2sent(model, sent_tokenized, index2word_set):
     return X
 
 
-model = "models/w2vec_wiki_id_non_case"
-_model, index2word_set = load_model(model)
-
 
 def OriginalGreedy(sent_tokenized, window=5, K=10):
     X = word2sent(_model, sent_tokenized, index2word_set)
@@ -291,10 +288,20 @@ def NewSeg(sent_tokenized, window=5, K=10):
     return "".join([str(i) for i in segs])
 
 
+
+import argparse
+
 if __name__ == "__main__":
     K = 8
     isStopWord = [True]
     isStemmed = [True]
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("model", help="please input the model")
+    args = parser.parse_args()
+    model = "models/{}".format(args.model)
+    _model, index2word_set = load_model(model)
+
     data = [
         # ['data/fadhail-amal.txt', 6],
         # ['data/sintesis.detik.txt', 10],
