@@ -117,8 +117,11 @@ def greedysplit(n, k, sigma):
         #
         # print("pemilihan batas:", min(new_arr))
         # print("sorted batas:", sorted(min(new_arr)[1]))
-
-        new = min(new_arr)
+        try:
+            new = min(new_arr)
+        except:
+            import pdb
+            pdb.set_trace()
         new_score.append(new)
         splits = new[1]
         s = new[0]
@@ -194,7 +197,7 @@ def NewSegV1(sent_tokenized, window=5, K=10):
 
         stdeviation = np.std([a[0] for a in e])
         print("cut or no:", np.std([a[0] for a in e]), splits, spl)
-        if stdeviation > 0.0206:
+        if stdeviation > 0.0206:  #0.0206:
             i = spl[1]
             if len(splits) == 1:
                 new_seg1 = i
@@ -303,18 +306,43 @@ if __name__ == "__main__":
     _model, index2word_set = load_model(model)
 
     data = [
+        ['data/id.albaqarah.original.txt', 55],
         # ['data/fadhail-amal.txt', 6],
         # ['data/sintesis.detik.txt', 10],
-        ['data/sintesis.extreme1.txt', 6],
-        ['data/sintesis.extreme2.txt', 5],
-        ['data/sintesis.extreme3.txt', 8],
-        ['data/sintesis.extreme4.txt', 8],
-        ['data/sintesis.extreme5.txt', 4],
-        ['data/sintesis.extreme6.txt', 9],
-        ['data/sintesis.extreme7.txt', 9],
-        ['data/sintesis.extreme8.txt', 7],
-        ['data/sintesis.extreme9.txt', 9],
-        ['data/sintesis.extreme10.txt', 9],
+        # ['data/id.albaqarah.cut.txt', 3],
+        # ['data/sintesis.extreme1.txt', 6],
+        # ['data/sintesis.extreme2.txt', 5],
+        # ['data/sintesis.extreme3.txt', 8],
+        # ['data/sintesis.extreme4.txt', 8],
+        # ['data/sintesis.extreme5.txt', 4],
+        # ['data/sintesis.extreme6.txt', 9],
+        # ['data/sintesis.extreme7.txt', 9],
+        # ['data/sintesis.extreme8.txt', 7],
+        # ['data/sintesis.extreme9.txt', 9],
+        # ['data/sintesis.extreme10.txt', 9],
+        #
+        # ['data/sintesis.extreme11.txt', 11],
+        # ['data/sintesis.extreme12.txt', 9],
+        # ['data/sintesis.extreme13.txt', 8],
+        # ['data/sintesis.extreme14.txt', 9],
+        # ['data/sintesis.extreme15.txt', 7],
+        # ['data/sintesis.extreme16.txt', 7],
+        # ['data/sintesis.extreme17.txt', 8],
+        # ['data/sintesis.extreme18.txt', 8],
+        # ['data/sintesis.extreme19.txt', 8],
+        # ['data/sintesis.extreme20.txt', 7],
+        #
+        # ['data/sintesis.extreme21.txt', 8],
+        # ['data/sintesis.extreme22.txt', 8],
+        # ['data/sintesis.extreme23.txt', 8],
+        # ['data/sintesis.extreme24.txt', 9],
+        # ['data/sintesis.extreme25.txt', 10],
+        # ['data/sintesis.extreme26.txt', 10],
+        # ['data/sintesis.extreme27.txt', 9],
+        # ['data/sintesis.extreme28.txt', 8],
+        # ['data/sintesis.extreme29.txt', 9],
+        # ['data/sintesis.extreme30.txt', 8],
+
         # ['data/sintesis.kompas.android.smooth.txt', 7],
         # ['data/sintesis.kompas.android.smooth2.txt', 3],
         # ['data/sintesis.kompas.politik.smooth.txt', 3],
@@ -325,14 +353,14 @@ if __name__ == "__main__":
     # sents, expected = get_albaqarah('id.albaqarah.original.v2.txt')
     stopword = load_stop_words()
 
-    methods = [NewSegV1, c99, text_tiling, OriginalGreedy]
+    methods = [NewSegV1, OriginalGreedy, c99, text_tiling]
     # import pdb
     # pdb.set_trace()
     results = []
     for sw in isStopWord:
         for ist in isStemmed:
             # if sw and ist: #check all true. please remove after finished
-            for window in [6]:
+            for window in [6, 8, 10, 15, 20]:
 
                 for expe in data:
                     sents, expected = load_data(expe[0])
@@ -365,9 +393,9 @@ if __name__ == "__main__":
                     for method in methods:
                         # try:
                         result = method(sent_tokenized, window, expe[1])
-                        diff = windowdiff(expected, result, window)
-                        pk_diff = pk(expected, result, window)
-                        # print(result, expected)
+                        diff = windowdiff(expected, result, expe[1])
+                        pk_diff = pk(expected, result, expe[1])
+                        # print(result, expe[1])
 
                         record = {
                             'File': expe[0],
@@ -390,4 +418,9 @@ if __name__ == "__main__":
 
     df = pd.DataFrame(results)
     print(df.to_string())
+    df.to_csv('df.csv')
+    dfpivot = df.pivot_table(index=['File','window'], columns='Method Name', values='window diff', aggfunc=np.average)
+    dfpivot.to_csv('dfpivot.csv')
+    print(dfpivot.to_string())
     print(df.groupby(['Method Name', 'window']).mean())
+    # dfgroup = df.groupby(['Method Name', 'window']).mean().
