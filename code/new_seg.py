@@ -360,7 +360,7 @@ if __name__ == "__main__":
     # sents, expected = get_albaqarah('id.albaqarah.original.v2.txt')
     stopword = load_stop_words()
 
-    methods = [NewSegV1, OriginalGreedy] #OriginalGreedy] #, c99, text_tiling]
+    methods = [NewSegV1, OriginalGreedy, c99, text_tiling]
     # import pdb
     # pdb.set_trace()
     results = []
