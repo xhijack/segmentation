@@ -1,0 +1,564 @@
+1, 78|1|Tentang apakah mereka saling bertanya-tanya?
+0, 78|2|Tentang berita yang besar,
+0, 78|3|yang mereka perselisihkan tentang ini.
+0, 78|4|Sekali-kali tidak
+0, 78|5|kemudian sekali-kali tidak
+0, 78|6|Bukankah Kami telah menjadikan bumi itu sebagai hamparan?,
+0, 78|7|dan gunung-gunung sebagai pasak?,
+0, 78|8|dan Kami jadikan kamu berpasang-pasangan,
+0, 78|9|dan Kami jadikan tidurmu untuk istirahat,
+0, 78|10|dan Kami jadikan malam sebagai pakaian,
+0, 78|11|dan Kami jadikan siang untuk mencari penghidupan,
+0, 78|12|dan Kami bina di atas kamu tujuh buah (langit) yang kokoh,
+0, 78|13|dan Kami jadikan pelita yang amat terang (matahari),
+0, 78|14|dan Kami turunkan dari awan air yang banyak tercurah,
+0, 78|15|supaya Kami tumbuhkan dengan air itu biji-bijian dan tumbuh-tumbuhan,
+0, 78|16|dan kebun-kebun yang lebat?
+1, 78|17|Sesungguhnya Hari Keputusan adalah suatu waktu yang ditetapkan,
+0, 78|18|yaitu hari (yang pada waktu itu) ditiup sangkakala lalu kamu datang berkelompok-kelompok,
+0, 78|19|dan dibukalah langit, maka terdapatlah beberapa pintu,
+0, 78|20|dan dijalankanlah gunung-gunung maka menjadi fatamorganalah ia.
+1, 78|21|Sesungguhnya neraka Jahannam itu (padanya) ada tempat pengintai,
+0, 78|22|lagi menjadi tempat kembali bagi orang-orang yang melampaui batas,
+0, 78|23|mereka tinggal di dalamnya berabad-abad lamanya,
+0, 78|24|mereka tidak merasakan kesejukan di dalamnya dan tidak (pula mendapat) minuman,
+0, 78|25|selain air yang mendidih dan nanah,
+0, 78|26|sebagai pambalasan yang setimpal.
+0, 78|27|Sesungguhnya mereka tidak berharap (takut) kepada hisab,
+0, 78|28|dan mereka mendustakan ayat-ayat Kami dengan sesungguh-sungguhnya.
+0, 78|29|Dan segala sesuatu telah Kami catat dalam suatu kitab.
+0, 78|30|Karena itu rasakanlah. Dan Kami sekali-kali tidak akan menambah kepada kamu selain daripada azab.
+1, 78|31|Sesungguhnya orang-orang yang bertakwa mendapat kemenangan,
+0, 78|32|(yaitu) kebun-kebun dan buah anggur,
+0, 78|33|dan gadis-gadis remaja yang sebaya,
+0, 78|34|dan gelas-gelas yang penuh (berisi minuman).
+0, 78|35|Di dalamnya mereka tidak mendengar perkataan yang sia-sia dan tidak (pula) perkataan dusta.
+0, 78|36|Sebagai pembalasan dari Tuhanmu dan pemberian yang cukup banyak,
+0, 78|37|Tuhan Yang memelihara langit dan bumi dan apa yang ada di antara keduanya
+1, 78|38|Pada hari, ketika ruh dan para malaikat berdiri bershaf-shaf, mereka tidak berkata-kata, kecuali siapa yang telah diberi izin kepadanya oleh Tuhan Yang Maha Pemurah
+0, 78|39|Itulah hari yang pasti terjadi. Maka barangsiapa yang menghendaki, niscaya ia menempuh jalan kembali kepada Tuhannya.
+0, 78|40|Sesungguhnya Kami telah memperingatkan kepadamu (hai orang kafir) siksa yang dekat, pada hari manusia melihat apa yang telah diperbuat oleh kedua tangannya
+1, 79|1|Demi (malaikat-malaikat) yang mencabut (nyawa) dengan keras,
+0, 79|2|dan (malaikat-malaikat) yang mencabut (nyawa) dengan lemah-lembut,
+0, 79|3|dan (malaikat-malaikat) yang turun dari langit dengan cepat,
+0, 79|4|dan (malaikat-malaikat) yang mendahului dengan kencang,
+0, 79|5|dan (malaikat-malaikat) yang mengatur urusan (dunia).
+0, 79|6|(Sesungguhnya kamu akan dibangkitkan) pada hari ketika tiupan pertama menggoncang alam,
+0, 79|7|tiupan pertama itu diiringi oleh tiupan kedua.
+0, 79|8|Hati manusia pada waktu itu sangat takut,
+0, 79|9|Pandangannya tunduk.
+0, 79|10|(Orang-orang kafir) berkata: "Apakah sesungguhnya kami benar-benar dikembalikan kepada kehidupan semula?
+0, 79|11|Apakah (akan dibangkitkan juga) apabila kami telah menjadi tulang belulang yang hancur lumat?"
+0, 79|12|Mereka berkata: "Kalau demikian, itu adalah suatu pengembalian yang merugikan".
+0, 79|13|Sesungguhnya pengembalian itu hanyalah satu kali tiupan saja,
+0, 79|14|maka dengan serta merta mereka hidup kembali di permukaan bumi.
+1, 79|15|Sudah sampaikah kepadamu (ya Muhammad) kisah Musa.
+0, 79|16|Tatkala Tuhannya memanggilnya di lembah suci ialah Lembah Thuwa
+0, 79|17|"Pergilah kamu kepada Fir´aun, sesungguhnya dia telah melampaui batas,
+0, 79|18|dan katakanlah (kepada Fir´aun): "Adakah keinginan bagimu untuk membersihkan diri (dari kesesatan)".
+0, 79|19|Dan kamu akan kupimpin ke jalan Tuhanmu agar supaya kamu takut kepada-Nya?"
+0, 79|20|Lalu Musa memperlihatkan kepadanya mukjizat yang besar.
+0, 79|21|Tetapi Fir´aun mendustakan dan mendurhakai.
+0, 79|22|Kemudian dia berpaling seraya berusaha menantang (Musa).
+0, 79|23|Maka dia mengumpulkan (pembesar-pembesarnya) lalu berseru memanggil kaumnya.
+0, 79|24|(Seraya) berkata: "Akulah tuhanmu yang paling tinggi".
+0, 79|25|Maka Allah mengazabnya dengan azab di akhirat dan azab di dunia.
+0, 79|26|Sesungguhnya pada yang demikian itu terdapat pelajaran bagi orang yang takut (kepada Tuhannya).
+1, 79|27|Apakah kamu lebih sulit penciptaanya ataukah langit? Allah telah membinanya,
+0, 79|28|Dia meninggikan bangunannya lalu menyempurnakannya,
+0, 79|29|dan Dia menjadikan malamnya gelap gulita, dan menjadikan siangnya terang benderang.
+0, 79|30|Dan bumi sesudah itu dihamparkan-Nya.
+0, 79|31|Ia memancarkan daripadanya mata airnya, dan (menumbuhkan) tumbuh-tumbuhannya.
+0, 79|32|Dan gunung-gunung dipancangkan-Nya dengan teguh,
+0, 79|33|(semua itu) untuk kesenanganmu dan untuk binatang-binatang ternakmu.
+1, 79|34|Maka apabila malapetaka yang sangat besar (hari kiamat) telah datang.
+0, 79|35|Pada hari (ketika) manusia teringat akan apa yang telah dikerjakannya,
+0, 79|36|dan diperlihatkan neraka dengan jelas kepada setiap orang yang melihat.
+0, 79|37|Adapun orang yang melampaui batas,
+0, 79|38|dan lebih mengutamakan kehidupan dunia,
+0, 79|39|maka sesungguhnya nerakalah tempat tinggal(nya).
+0, 79|40|Dan adapun orang-orang yang takut kepada kebesaran Tuhannya dan menahan diri dari keinginan hawa nafsunya,
+0, 79|41|maka sesungguhnya surgalah tempat tinggal(nya).
+0, 79|42|(Orang-orang kafir) bertanya kepadamu (Muhammad) tentang hari kebangkitan, kapankah terjadinya?
+0, 79|43|Siapakah kamu (maka) dapat menyebutkan (waktunya)?
+0, 79|44|Kepada Tuhanmulah dikembalikan kesudahannya (ketentuan waktunya).
+0, 79|45|Kamu hanyalah pemberi peringatan bagi siapa yang takut kepadanya (hari berbangkit)
+0, 79|46|Pada hari mereka melihat hari berbangkit itu, mereka merasa seakan-akan tidak tinggal (di dunia) melainkan (sebentar saja) di waktu sore atau pagi hari.
+1, 80|1|Dia (Muhammad) bermuka masam dan berpaling,
+0, 80|2|karena telah datang seorang buta kepadanya.
+0, 80|3|Tahukah kamu barangkali ia ingin membersihkan dirinya (dari dosa),
+0, 80|4|atau dia (ingin) mendapatkan pengajaran, lalu pengajaran itu memberi manfaat kepadanya?
+0, 80|5|Adapun orang yang merasa dirinya serba cukup,
+0, 80|6|maka kamu melayaninya.
+0, 80|7|Padahal tidak ada (celaan) atasmu kalau dia tidak membersihkan diri (beriman).
+0, 80|8|Dan adapun orang yang datang kepadamu dengan bersegera (untuk mendapatkan pengajaran),
+0, 80|9|sedang ia takut kepada (Allah),
+0, 80|10|maka kamu mengabaikannya.
+0, 80|11|Sekali-kali jangan (demikian)! Sesungguhnya ajaran-ajaran Tuhan itu adalah suatu peringatan,
+0, 80|12|maka barangsiapa yang menghendaki, tentulah ia memperhatikannya,
+0, 80|13|di dalam kitab-kitab yang dimuliakan,
+0, 80|14|yang ditinggikan lagi disucikan,
+0, 80|15|di tangan para penulis (malaikat),
+0, 80|16|yang mulia lagi berbakti.
+1, 80|17|Binasalah manusia
+0, 80|18|Dari apakah Allah menciptakannya?
+0, 80|19|Dari setetes mani, Allah menciptakannya lalu menentukannya.
+0, 80|20|Kemudian Dia memudahkan jalannya.
+0, 80|21|kemudian Dia mematikannya dan memasukkannya ke dalam kubur,
+0, 80|22|kemudian bila Dia menghendaki, Dia membangkitkannya kembali.
+0, 80|23|Sekali-kali jangan
+0, 80|24|maka hendaklah manusia itu memperhatikan makanannya.
+0, 80|25|Sesungguhnya Kami benar-benar telah mencurahkan air (dari langit),
+0, 80|26|kemudian Kami belah bumi dengan sebaik-baiknya,
+0, 80|27|lalu Kami tumbuhkan biji-bijian di bumi itu,
+0, 80|28|anggur dan sayur-sayuran,
+0, 80|29|zaitun dan kurma,
+0, 80|30|kebun-kebun (yang) lebat,
+0, 80|31|dan buah-buahan serta rumput-rumputan,
+0, 80|32|untuk kesenanganmu dan untuk binatang-binatang ternakmu.
+0, 80|33|Dan apabila datang suara yang memekakkan (tiupan sangkakala yang kedua),
+0, 80|34|pada hari ketika manusia lari dari saudaranya,
+0, 80|35|dari ibu dan bapaknya,
+0, 80|36|dari istri dan anak-anaknya.
+0, 80|37|Setiap orang dari mereka pada hari itu mempunyai urusan yang cukup menyibukkannya.
+0, 80|38|Banyak muka pada hari itu berseri-seri,
+0, 80|39|tertawa dan bergembira ria,
+0, 80|40|dan banyak (pula) muka pada hari itu tertutup debu,
+0, 80|41|dan ditutup lagi oleh kegelapan.
+0, 80|42|Mereka itulah orang-orang kafir lagi durhaka.
+1, 81|1|Apabila matahari digulung,
+0, 81|2|dan apabila bintang-bintang berjatuhan,
+0, 81|3|dan apabila gunung-gunung dihancurkan,
+0, 81|4|dan apabila unta-unta yang bunting ditinggalkan (tidak diperdulikan)
+0, 81|5|dan apabila binatang-binatang liar dikumpulkan,
+0, 81|6|dan apabila lautan dijadikan meluap
+0, 81|7|dan apabila ruh-ruh dipertemukan (dengan tubuh)
+0, 81|8|dan apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya,
+0, 81|9|karena dosa apakah dia dibunuh,
+0, 81|10|dan apabila catatan-catatan (amal perbuatan manusia) dibuka,
+0, 81|11|dan apabila langit dilenyapkan,
+0, 81|12|dan apabila neraka Jahim dinyalakan,
+0, 81|13|dan apabila surga didekatkan,
+0, 81|14|maka tiap-tiap jiwa akan mengetahui apa yang telah dikerjakannya.
+1, 81|15|Sungguh, Aku bersumpah dengan bintang-bintang,
+0, 81|16|yang beredar dan terbenam,
+0, 81|17|demi malam apabila telah hampir meninggalkan gelapnya,
+0, 81|18|dan demi subuh apabila fajarnya mulai menyingsing,
+0, 81|19|sesungguhnya Al Quran itu benar-benar firman (Allah yang dibawa oleh) utusan yang mulia (Jibril),
+0, 81|20|yang mempunyai kekuatan, yang mempunyai kedudukan tinggi di sisi Allah yang mempunyai ´Arsy,
+0, 81|21|yang ditaati di sana (di alam malaikat) lagi dipercaya.
+0, 81|22|Dan temanmu (Muhammad) itu bukanlah sekali-kali orang yang gila.
+0, 81|23|Dan sesungguhnya Muhammad itu melihat Jibril di ufuk yang terang.
+0, 81|24|Dan dia (Muhammad) bukanlah orang yang bakhil untuk menerangkan yang ghaib.
+0, 81|25|Dan Al Quran itu bukanlah perkataan syaitan yang terkutuk,
+0, 81|26|maka ke manakah kamu akan pergi?
+0, 81|27|Al Quran itu tiada lain hanyalah peringatan bagi semesta alam,
+0, 81|28|(yaitu) bagi siapa di antara kamu yang mau menempuh jalan yang lurus.
+0, 81|29|Dan kamu tidak dapat menghendaki (menempuh jalan itu) kecuali apabila dikehendaki Allah, Tuhan semesta alam.
+1, 82|1|Apabila langit terbelah,
+0, 82|2|dan apabila bintang-bintang jatuh berserakan,
+0, 82|3|dan apabila lautan menjadikan meluap,
+0, 82|4|dan apabila kuburan-kuburan dibongkar,
+0, 82|5|maka tiap-tiap jiwa akan mengetahui apa yang telah dikerjakan dan yang dilalaikannya.
+0, 82|6|Hai manusia, apakah yang telah memperdayakan kamu (berbuat durhaka) terhadap Tuhanmu Yang Maha Pemurah.
+0, 82|7|Yang telah menciptakan kamu lalu menyempurnakan kejadianmu dan menjadikan (susunan tubuh)mu seimbang,
+0, 82|8|dalam bentuk apa saja yang Dia kehendaki, Dia menyusun tubuhmu.
+0, 82|9|Bukan hanya durhaka saja, bahkan kamu mendustakan hari pembalasan.
+1, 82|10|Padahal sesungguhnya bagi kamu ada (malaikat-malaikat) yang mengawasi (pekerjaanmu),
+0, 82|11|yang mulia (di sisi Allah) dan mencatat (pekerjaan-pekerjaanmu itu),
+0, 82|12|mereka mengetahui apa yang kamu kerjakan.
+0, 82|13|Sesungguhnya orang-orang yang banyak berbakti benar-benar berada dalam surga yang penuh kenikmatan,
+0, 82|14|dan sesungguhnya orang-orang yang durhaka benar-benar berada dalam neraka.
+0, 82|15|Mereka masuk ke dalamnya pada hari pembalasan.
+0, 82|16|Dan mereka sekali-kali tidak dapat keluar dari neraka itu.
+0, 82|17|Tahukah kamu apakah hari pembalasan itu?
+0, 82|18|Sekali lagi, tahukah kamu apakah hari pembalasan itu?
+0, 82|19|(Yaitu) hari (ketika) seseorang tidak berdaya sedikitpun untuk menolong orang lain. Dan segala urusan pada hari itu dalam kekuasaan Allah.
+1, 83|1|Kecelakaan besarlah bagi orang-orang yang curang
+0, 83|2|(yaitu) orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi,
+0, 83|3|dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.
+0, 83|4|Tidaklah orang-orang itu menyangka, bahwa sesungguhnya mereka akan dibangkitkan,
+0, 83|5|pada suatu hari yang besar,
+0, 83|6|(yaitu) hari (ketika) manusia berdiri menghadap Tuhan semesta alam?
+1, 83|7|Sekali-kali jangan curang, karena sesungguhnya kitab orang yang durhaka tersimpan dalam sijjin.
+0, 83|8|Tahukah kamu apakah sijjin itu?
+0, 83|9|(Ialah) kitab yang bertulis.
+0, 83|10|Kecelakaan yang besarlah pada hari itu bagi orang-orang yang mendustakan,
+0, 83|11|(yaitu) orang-orang yang mendustakan hari pembalasan.
+0, 83|12|Dan tidak ada yang mendustakan hari pembalasan itu melainkan setiap orang yang melampaui batas lagi berdosa,
+0, 83|13|yang apabila dibacakan kepadanya ayat-ayat Kami, ia berkata: "Itu adalah dongengan orang-orang yang dahulu"
+0, 83|14|Sekali-kali tidak (demikian), sebenarnya apa yang selalu mereka usahakan itu menutupi hati mereka.
+0, 83|15|Sekali-kali tidak, sesungguhnya mereka pada hari itu benar-benar tertutup dari (rahmat) Tuhan mereka.
+0, 83|16|Kemudian, sesungguhnya mereka benar-benar masuk neraka.
+0, 83|17|Kemudian, dikatakan (kepada mereka): "Inilah azab yang dahulu selalu kamu dustakan".
+1, 83|18|Sekali-kali tidak, sesungguhnya kitab orang-orang yang berbakti itu (tersimpan) dalam ´Illiyyin.
+0, 83|19|Tahukah kamu apakah ´Illiyyin itu?
+0, 83|20|(Yaitu) kitab yang bertulis,
+0, 83|21|yang disaksikan oleh malaikat-malaikat yang didekatkan (kepada Allah).
+0, 83|22|Sesungguhnya orang yang berbakti itu benar-benar berada dalam kenikmatan yang besar (surga),
+0, 83|23|mereka (duduk) di atas dipan-dipan sambil memandang.
+0, 83|24|Kamu dapat mengetahui dari wajah mereka kesenangan mereka yang penuh kenikmatan.
+0, 83|25|Mereka diberi minum dari khamar murni yang dilak (tempatnya),
+0, 83|26|laknya adalah kesturi
+0, 83|27|Dan campuran khamar murni itu adalah dari tasnim,
+0, 83|28|(yaitu) mata air yang minum daripadanya orang-orang yang didekatkan kepada Allah.
+1, 83|29|Sesungguhnya orang-orang yang berdosa, adalah mereka yang menertawakan orang-orang yang beriman.
+0, 83|30|Dan apabila orang-orang yang beriman lalu di hadapan mereka, mereka saling mengedip-ngedipkan matanya.
+0, 83|31|Dan apabila orang-orang yang berdosa itu kembali kepada kaumnya, mereka kembali dengan gembira.
+0, 83|32|Dan apabila mereka melihat orang-orang mukmin, mereka mengatakan: "Sesungguhnya mereka itu benar-benar orang-orang yang sesat",
+0, 83|33|padahal orang-orang yang berdosa itu tidak dikirim untuk penjaga bagi orang-orang mukmin.
+0, 83|34|Maka pada hari ini, orang-orang yang beriman menertawakan orang-orang kafir,
+0, 83|35|mereka (duduk) di atas dipan-dipan sambil memandang.
+0, 83|36|Sesungguhnya orang-orang kafir telah diberi ganjaran terhadap apa yang dahulu mereka kerjakan.
+1, 84|1|Apabila langit terbelah,
+0, 84|2|dan patuh kepada Tuhannya, dan sudah semestinya langit itu patuh,
+0, 84|3|dan apabila bumi diratakan,
+0, 84|4|dan dilemparkan apa yang ada di dalamnya dan menjadi kosong,
+0, 84|5|dan patuh kepada Tuhannya, dan sudah semestinya bumi itu patuh, (pada waktu itu manusia akan mengetahui akibat perbuatannya).
+0, 84|6|Hai manusia, sesungguhnya kamu telah bekerja dengan sungguh-sungguh menuju Tuhanmu, maka pasti kamu akan menemui-Nya.
+0, 84|7|Adapun orang yang diberikan kitabnya dari sebelah kanannya,
+0, 84|8|maka dia akan diperiksa dengan pemeriksaan yang mudah,
+0, 84|9|dan dia akan kembali kepada kaumnya (yang sama-sama beriman) dengan gembira.
+1, 84|10|Adapun orang-orang yang diberikan kitabnya dari belakang,
+0, 84|11|maka dia akan berteriak: "Celakalah aku".
+0, 84|12|Dan dia akan masuk ke dalam api yang menyala-nyala (neraka).
+0, 84|13|Sesungguhnya dia dahulu (di dunia) bergembira di kalangan kaumnya (yang sama-sama kafir).
+0, 84|14|Sesungguhnya dia menyangka bahwa dia sekali-kali tidak akan kembali (kepada Tuhannya).
+0, 84|15|(Bukan demikian), yang benar, sesungguhnya Tuhannya selalu melihatnya.
+1, 84|16|Maka sesungguhnya Aku bersumpah dengan cahaya merah di waktu senja,
+0, 84|17|dan dengan malam dan apa yang diselubunginya,
+0, 84|18|dan dengan bulan apabila jadi purnama,
+0, 84|19|sesungguhnya kamu melalui tingkat demi tingkat (dalam kehidupan),
+0, 84|20|Mengapa mereka tidak mau beriman?
+0, 84|21|dan apabila Al Quran dibacakan kepada mereka, mereka tidak bersujud,
+0, 84|22|bahkan orang-orang kafir itu mendustakan(nya).
+0, 84|23|Padahal Allah mengetahui apa yang mereka sembunyikan (dalam hati mereka).
+0, 84|24|Maka beri kabar gembiralah mereka dengan azab yang pedih,
+0, 84|25|tetapi orang-orang yang beriman dan beramal saleh, bagi mereka pahala yang tidak putus-putusnya.
+1, 85|1|Demi langit yang mempunyai gugusan bintang,
+0, 85|2|dan hari yang dijanjikan,
+0, 85|3|dan yang menyaksikan dan yang disaksikan.
+0, 85|4|Binasa dan terlaknatlah orang-orang yang membuat parit,
+0, 85|5|yang berapi (dinyalakan dengan) kayu bakar,
+0, 85|6|ketika mereka duduk di sekitarnya,
+0, 85|7|sedang mereka menyaksikan apa yang mereka perbuat terhadap orang-orang yang beriman.
+0, 85|8|Dan mereka tidak menyiksa orang-orang mukmin itu melainkan karena orang-orang mukmin itu beriman kepada Allah Yang Maha Perkasa lagi Maha Terpuji,
+0, 85|9|Yang mempunyai kerajaan langit dan bumi
+0, 85|10|Sesungguhnya orang-orang yang mendatangkan cobaan kepada orang-orang yang mukmin laki-laki dan perempuan kemudian mereka tidak bertaubat, maka bagi mereka azab Jahannam dan bagi mereka azab (neraka) yang membakar.
+0, 85|11|Sesungguhnya orang-orang yang beriman dan mengerjakan amal-amal yang saleh bagi mereka surga yang mengalir di bawahnya sungai-sungai
+0, 85|12|Sesungguhnya azab Tuhanmu benar-benar keras.
+0, 85|13|Sesungguhnya Dialah Yang menciptakan (makhluk) dari permulaan dan menghidupkannya (kembali).
+0, 85|14|Dialah Yang Maha Pengampun lagi Maha Pengasih,
+0, 85|15|yang mempunyai ´Arsy, lagi Maha Mulia,
+0, 85|16|Maha Kuasa berbuat apa yang dikehendaki-Nya.
+0, 85|17|Sudahkah datang kepadamu berita kaum-kaum penentang,
+0, 85|18|(yaitu kaum) Fir´aun dan (kaum) Tsamud?
+0, 85|19|Sesungguhnya orang-orang kafir selalu mendustakan,
+0, 85|20|padahal Allah mengepung mereka dari belakang mereka.
+0, 85|21|Bahkan yang didustakan mereka itu ialah Al Quran yang mulia,
+0, 85|22|yang (tersimpan) dalam Lauh Mahfuzh.
+1, 86|1|Demi langit dan yang datang pada malam hari,
+0, 86|2|tahukah kamu apakah yang datang pada malam hari itu?
+0, 86|3|(yaitu) bintang yang cahayanya menembus,
+0, 86|4|tidak ada suatu jiwapun (diri) melainkan ada penjaganya.
+1, 86|5|Maka hendaklah manusia memperhatikan dari apakah dia diciptakan?
+0, 86|6|Dia diciptakan dari air yang dipancarkan,
+0, 86|7|yang keluar dari antara tulang sulbi laki-laki dan tulang dada perempuan.
+0, 86|8|Sesungguhnya Allah benar-benar kuasa untuk mengembalikannya (hidup sesudah mati).
+0, 86|9|Pada hari dinampakkan segala rahasia,
+0, 86|10|maka sekali-kali tidak ada bagi manusia itu suatu kekuatanpun dan tidak (pula) seorang penolong.
+1, 86|11|Demi langit yang mengandung hujan
+0, 86|12|dan bumi yang mempunyai tumbuh-tumbuhan,
+0, 86|13|sesungguhnya Al Quran itu benar-benar firman yang memisahkan antara yang hak dan yang bathil.
+0, 86|14|dan sekali-kali bukanlah dia senda gurau.
+0, 86|15|Sesungguhnya orang kafir itu merencanakan tipu daya yang jahat dengan sebenar-benarnya.
+0, 86|16|Dan Akupun membuat rencana (pula) dengan sebenar-benarnya.
+0, 86|17|Karena itu beri tangguhlah orang-orang kafir itu yaitu beri tangguhlah mereka itu barang sebentar.
+1, 87|1|Sucikanlah nama Tuhanmu Yang Maha Tingi,
+0, 87|2|yang menciptakan, dan menyempurnakan (penciptaan-Nya),
+0, 87|3|dan yang menentukan kadar (masing-masing) dan memberi petunjuk,
+0, 87|4|dan yang menumbuhkan rumput-rumputan,
+0, 87|5|lalu dijadikan-Nya rumput-rumput itu kering kehitam-hitaman.
+0, 87|6|Kami akan membacakan (Al Quran) kepadamu (Muhammad) maka kamu tidak akan lupa,
+0, 87|7|kecuali kalau Allah menghendaki. Sesungguhnya Dia mengetahui yang terang dan yang tersembunyi.
+0, 87|8|dan Kami akan memberi kamu taufik ke jalan yang mudah,
+0, 87|9|oleh sebab itu berikanlah peringatan karena peringatan itu bermanfaat,
+0, 87|10|orang yang takut (kepada Allah) akan mendapat pelajaran,
+0, 87|11|dan orang-orang yang celaka (kafir) akan menjauhinya.
+0, 87|12|(Yaitu) orang yang akan memasuki api yang besar (neraka).
+0, 87|13|Kemudian dia tidak akan mati di dalamnya dan tidak (pula) hidup.
+0, 87|14|Sesungguhnya beruntunglah orang yang membersihkan diri (dengan beriman),
+0, 87|15|dan dia ingat nama Tuhannya, lalu dia sembahyang.
+0, 87|16|Tetapi kamu (orang-orang kafir) memilih kehidupan duniawi.
+0, 87|17|Sedang kehidupan akhirat adalah lebih baik dan lebih kekal.
+0, 87|18|Sesungguhnya ini benar-benar terdapat dalam kitab-kitab yang dahulu,
+0, 87|19|(yaitu) Kitab-kitab Ibrahim dan Musa
+1, 88|1|Sudah datangkah kepadamu berita (tentang) hari pembalasan?
+0, 88|2|Banyak muka pada hari itu tunduk terhina,
+0, 88|3|bekerja keras lagi kepayahan,
+0, 88|4|memasuki api yang sangat panas (neraka),
+0, 88|5|diberi minum (dengan air) dari sumber yang sangat panas.
+0, 88|6|Mereka tiada memperoleh makanan selain dari pohon yang berduri,
+0, 88|7|yang tidak menggemukkan dan tidak pula menghilangkan lapar.
+0, 88|8|Banyak muka pada hari itu berseri-seri,
+0, 88|9|merasa senang karena usahanya,
+0, 88|10|dalam surga yang tinggi,
+0, 88|11|tidak kamu dengar di dalamnya perkataan yang tidak berguna.
+0, 88|12|Di dalamnya ada mata air yang mengalir.
+0, 88|13|Di dalamnya ada takhta-takhta yang ditinggikan,
+0, 88|14|dan gelas-gelas yang terletak (di dekatnya),
+0, 88|15|dan bantal-bantal sandaran yang tersusun,
+0, 88|16|dan permadani-permadani yang terhampar.
+1, 88|17|Maka apakah mereka tidak memperhatikan unta bagaimana dia diciptakan,
+0, 88|18|Dan langit, bagaimana ia ditinggikan?
+0, 88|19|Dan gunung-gunung bagaimana ia ditegakkan?
+0, 88|20|Dan bumi bagaimana ia dihamparkan?
+0, 88|21|Maka berilah peringatan, karena sesungguhnya kamu hanyalah orang yang memberi peringatan.
+0, 88|22|Kamu bukanlah orang yang berkuasa atas mereka,
+0, 88|23|tetapi orang yang berpaling dan kafir,
+0, 88|24|maka Allah akan mengazabnya dengan azab yang besar.
+0, 88|25|Sesungguhnya kepada Kami-lah kembali mereka,
+0, 88|26|kemudian sesungguhnya kewajiban Kami-lah menghisab mereka.
+1, 89|1|Demi fajar,
+0, 89|2|dan malam yang sepuluh,
+0, 89|3|dan yang genap dan yang ganjil,
+0, 89|4|dan malam bila berlalu.
+0, 89|5|Pada yang demikian itu terdapat sumpah (yang dapat diterima) oleh orang-orang yang berakal.
+0, 89|6|Apakah kamu tidak memperhatikan bagaimana Tuhanmu berbuat terhadap kaum ´Aad?
+0, 89|7|(yaitu) penduduk Iram yang mempunyai bangunan-bangunan yang tinggi,
+0, 89|8|yang belum pernah dibangun (suatu kota) seperti itu, di negeri-negeri lain,
+0, 89|9|dan kaum Tsamud yang memotong batu-batu besar di lembah,
+0, 89|10|dan kaum Fir´aun yang mempunyai pasak-pasak (tentara yang banyak),
+0, 89|11|yang berbuat sewenang-wenang dalam negeri,
+0, 89|12|lalu mereka berbuat banyak kerusakan dalam negeri itu,
+0, 89|13|karena itu Tuhanmu menimpakan kepada mereka cemeti azab,
+0, 89|14|sesungguhnya Tuhanmu benar-benar mengawasi.
+1, 89|15|Adapun manusia apabila Tuhannya mengujinya lalu dia dimuliakan-Nya dan diberi-Nya kesenangan, maka dia akan berkata: "Tuhanku telah memuliakanku".
+0, 89|16|Adapun bila Tuhannya mengujinya lalu membatasi rezekinya maka dia berkata: "Tuhanku menghinakanku".
+0, 89|17|Sekali-kali tidak (demikian), sebenarnya kamu tidak memuliakan anak yatim,
+0, 89|18|dan kamu tidak saling mengajak memberi makan orang miskin,
+0, 89|19|dan kamu memakan harta pusaka dengan cara mencampur baurkan (yang halal dan yang bathil),
+0, 89|20|dan kamu mencintai harta benda dengan kecintaan yang berlebihan.
+1, 89|21|Jangan (berbuat demikian). Apabila bumi digoncangkan berturut-turut,
+0, 89|22|dan datanglah Tuhanmu
+0, 89|23|Dan pada hari itu diperlihatkan neraka Jahannam
+0, 89|24|Dia mengatakan: "Alangkah baiknya kiranya aku dahulu mengerjakan (amal saleh) untuk hidupku ini".
+0, 89|25|Maka pada hari itu tiada seorangpun yang menyiksa seperti siksa-Nya.
+0, 89|26|dan tiada seorangpun yang mengikat seperti ikatan-Nya.
+1, 89|27|Hai jiwa yang tenang.
+0, 89|28|Kembalilah kepada Tuhanmu dengan hati yang puas lagi diridhai-Nya.
+0, 89|29|Maka masuklah ke dalam jama´ah hamba-hamba-Ku,
+0, 89|30|masuklah ke dalam surga-Ku.
+1, 90|1|Aku benar-benar bersumpah dengan kota ini (Mekah),
+0, 90|2|dan kamu (Muhammad) bertempat di kota Mekah ini,
+0, 90|3|dan demi bapak dan anaknya.
+0, 90|4|Sesungguhnya Kami telah menciptakan manusia berada dalam susah payah.
+0, 90|5|Apakah manusia itu menyangka bahwa sekali-kali tiada seorangpun yang berkuasa atasnya?
+0, 90|6|Dan mengatakan: "Aku telah menghabiskan harta yang banyak".
+0, 90|7|Apakah dia menyangka bahwa tiada seorangpun yang melihatnya?
+0, 90|8|Bukankah Kami telah memberikan kepadanya dua buah mata,
+0, 90|9|lidah dan dua buah bibir.
+0, 90|10|Dan Kami telah menunjukkan kepadanya dua jalan,
+0, 90|11|Tetapi dia tiada menempuh jalan yang mendaki lagi sukar.
+0, 90|12|Tahukah kamu apakah jalan yang mendaki lagi sukar itu?
+0, 90|13|(yaitu) melepaskan budak dari perbudakan,
+0, 90|14|atau memberi makan pada hari kelaparan,
+0, 90|15|(kepada) anak yatim yang ada hubungan kerabat,
+0, 90|16|atau kepada orang miskin yang sangat fakir.
+0, 90|17|Dan dia (tidak pula) termasuk orang-orang yang beriman dan saling berpesan untuk bersabar dan saling berpesan untuk berkasih sayang.
+0, 90|18|Mereka (orang-orang yang beriman dan saling berpesan itu) adalah golongan kanan.
+0, 90|19|Dan orang-orang yang kafir kepada ayat-ayat Kami, mereka itu adalah golongan kiri.
+0, 90|20|Mereka berada dalam neraka yang ditutup rapat.
+1, 91|1|Demi matahari dan cahayanya di pagi hari,
+0, 91|2|dan bulan apabila mengiringinya,
+0, 91|3|dan siang apabila menampakkannya,
+0, 91|4|dan malam apabila menutupinya,
+0, 91|5|dan langit serta pembinaannya,
+0, 91|6|dan bumi serta penghamparannya,
+0, 91|7|dan jiwa serta penyempurnaannya (ciptaannya),
+0, 91|8|maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya.
+0, 91|9|sesungguhnya beruntunglah orang yang mensucikan jiwa itu,
+0, 91|10|dan sesungguhnya merugilah orang yang mengotorinya.
+0, 91|11|(Kaum) Tsamud telah mendustakan (rasulnya) karena mereka melampaui batas,
+0, 91|12|ketika bangkit orang yang paling celaka di antara mereka,
+0, 91|13|lalu Rasul Allah (Saleh) berkata kepada mereka: ("Biarkanlah) unta betina Allah dan minumannya".
+0, 91|14|Lalu mereka mendustakannya dan menyembelih unta itu, maka Tuhan mereka membinasakan mereka disebabkan dosa mereka, lalu Allah menyama-ratakan mereka (dengan tanah),
+0, 91|15|dan Allah tidak takut terhadap akibat tindakan-Nya itu.
+1, 92|1|Demi malam apabila menutupi (cahaya siang),
+0, 92|2|dan siang apabila terang benderang,
+0, 92|3|dan penciptaan laki-laki dan perempuan,
+0, 92|4|sesungguhnya usaha kamu memang berbeda-beda.
+0, 92|5|Adapun orang yang memberikan (hartanya di jalan Allah) dan bertakwa,
+0, 92|6|dan membenarkan adanya pahala yang terbaik (surga),
+0, 92|7|maka Kami kelak akan menyiapkan baginya jalan yang mudah.
+0, 92|8|Dan adapun orang-orang yang bakhil dan merasa dirinya cukup,
+0, 92|9|serta mendustakan pahala terbaik,
+0, 92|10|maka kelak Kami akan menyiapkan baginya (jalan) yang sukar.
+0, 92|11|Dan hartanya tidak bermanfaat baginya apabila ia telah binasa.
+0, 92|12|Sesungguhnya kewajiban Kamilah memberi petunjuk,
+0, 92|13|dan sesungguhnya kepunyaan Kamilah akhirat dan dunia.
+0, 92|14|Maka, kami memperingatkan kamu dengan neraka yang menyala-nyala.
+0, 92|15|Tidak ada yang masuk ke dalamnya kecuali orang yang paling celaka,
+0, 92|16|yang mendustakan (kebenaran) dan berpaling (dari iman).
+0, 92|17|Dan kelak akan dijauhkan orang yang paling takwa dari neraka itu,
+0, 92|18|yang menafkahkan hartanya (di jalan Allah) untuk membersihkannya,
+0, 92|19|padahal tidak ada seseorangpun memberikan suatu nikmat kepadanya yang harus dibalasnya,
+0, 92|20|tetapi (dia memberikan itu semata-mata) karena mencari keridhaan Tuhannya yang Maha Tinggi.
+0, 92|21|Dan kelak dia benar-benar mendapat kepuasan.
+1, 93|1|Demi waktu matahari sepenggalahan naik,
+0, 93|2|dan demi malam apabila telah sunyi (gelap),
+0, 93|3|Tuhanmu tiada meninggalkan kamu dan tiada (pula) benci kepadamu.
+0, 93|4|Dan sesungguhnya hari kemudian itu lebih baik bagimu daripada yang sekarang (permulaan).
+0, 93|5|Dan kelak Tuhanmu pasti memberikan karunia-Nya kepadamu , lalu (hati) kamu menjadi puas.
+0, 93|6|Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungimu?
+0, 93|7|Dan Dia mendapatimu sebagai seorang yang bingung, lalu Dia memberikan petunjuk.
+0, 93|8|Dan Dia mendapatimu sebagai seorang yang kekurangan, lalu Dia memberikan kecukupan.
+0, 93|9|Sebab itu, terhadap anak yatim janganlah kamu berlaku sewenang-wenang.
+0, 93|10|Dan terhadap orang yang minta-minta, janganlah kamu menghardiknya.
+0, 93|11|Dan terhadap nikmat Tuhanmu, maka hendaklah kamu siarkan.
+1, 94|1|Bukankah Kami telah melapangkan untukmu dadamu?,
+0, 94|2|dan Kami telah menghilangkan daripadamu bebanmu,
+0, 94|3|yang memberatkan punggungmu?
+0, 94|4|Dan Kami tinggikan bagimu sebutan (nama)mu,
+0, 94|5|Karena sesungguhnya sesudah kesulitan itu ada kemudahan,
+0, 94|6|sesungguhnya sesudah kesulitan itu ada kemudahan.
+0, 94|7|Maka apabila kamu telah selesai (dari sesuatu urusan), kerjakanlah dengan sungguh-sungguh (urusan) yang lain,
+0, 94|8|dan hanya kepada Tuhanmulah hendaknya kamu berharap.
+1, 95|1|Demi (buah) Tin dan (buah) Zaitun,
+0, 95|2|dan demi bukit Sinai,
+0, 95|3|dan demi kota (Mekah) ini yang aman,
+0, 95|4|sesungguhnya Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya.
+0, 95|5|Kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya (neraka),
+1, 95|6|kecuali orang-orang yang beriman dan mengerjakan amal saleh
+0, 95|7|Maka apakah yang menyebabkan kamu mendustakan (hari) pembalasan sesudah (adanya keterangan-keterangan) itu?
+0, 95|8|Bukankah Allah Hakim yang seadil-adilnya?
+1, 96|1|Bacalah dengan (menyebut) nama Tuhanmu Yang menciptakan,
+0, 96|2|Dia telah menciptakan manusia dari segumpal darah.
+0, 96|3|Bacalah, dan Tuhanmulah Yang Maha Pemurah,
+0, 96|4|Yang mengajar (manusia) dengan perantaran kalam,
+0, 96|5|Dia mengajar kepada manusia apa yang tidak diketahuinya.
+1, 96|6|Ketahuilah! Sesungguhnya manusia benar-benar melampaui batas,
+0, 96|7|karena dia melihat dirinya serba cukup.
+0, 96|8|Sesungguhnya hanya kepada Tuhanmulah kembali(mu).
+0, 96|9|Bagaimana pendapatmu tentang orang yang melarang,
+0, 96|10|seorang hamba ketika mengerjakan shalat,
+0, 96|11|bagaimana pendapatmu jika orang yang melarang itu berada di atas kebenaran,
+0, 96|12|atau dia menyuruh bertakwa (kepada Allah)?
+0, 96|13|Bagaimana pendapatmu jika orang yang melarang itu mendustakan dan berpaling?
+0, 96|14|Tidaklah dia mengetahui bahwa sesungguhnya Allah melihat segala perbuatannya?
+0, 96|15|Ketahuilah, sungguh jika dia tidak berhenti (berbuat demikian) niscaya Kami tarik ubun-ubunnya,
+0, 96|16|(yaitu) ubun-ubun orang yang mendustakan lagi durhaka.
+0, 96|17|Maka biarlah dia memanggil golongannya (untuk menolongnya),
+0, 96|18|kelak Kami akan memanggil malaikat Zabaniyah,
+0, 96|19|sekali-kali jangan, janganlah kamu patuh kepadanya
+1, 97|1|Sesungguhnya Kami telah menurunkannya (Al Quran) pada malam kemuliaan.
+0, 97|2|Dan tahukah kamu apakah malam kemuliaan itu?
+0, 97|3|Malam kemuliaan itu lebih baik dari seribu bulan.
+0, 97|4|Pada malam itu turun malaikat-malaikat dan malaikat Jibril dengan izin Tuhannya untuk mengatur segala urusan.
+0, 97|5|Malam itu (penuh) kesejahteraan sampai terbit fajar.
+1, 98|1|Orang-orang kafir yakni ahli Kitab dan orang-orang musyrik (mengatakan bahwa mereka) tidak akan meninggalkan (agamanya) sebelum datang kepada mereka bukti yang nyata,
+0, 98|2|(yaitu) seorang Rasul dari Allah (Muhammad) yang membacakan lembaran-lembaran yang disucikan (Al Quran),
+0, 98|3|di dalamnya terdapat (isi) Kitab-kitab yang lurus.
+0, 98|4|Dan tidaklah berpecah belah orang-orang yang didatangkan Al Kitab (kepada mereka) melainkan sesudah datang kepada mereka bukti yang nyata.
+0, 98|5|Padahal mereka tidak disuruh kecuali supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam (menjalankan) agama yang lurus, dan supaya mereka mendirikan shalat dan menunaikan zakat
+0, 98|6|Sesungguhnya orang-orang yang kafir yakni ahli Kitab dan orang-orang yang musyrik (akan masuk) ke neraka Jahannam
+0, 98|7|Sesungguhnya orang-orang yang beriman dan mengerjakan amal saleh, mereka itu adalah sebaik-baik makhluk.
+0, 98|8|Balasan mereka di sisi Tuhan mereka ialah surga ´Adn yang mengalir di bawahnya sungai-sungai
+1, 99|1|Apabila bumi digoncangkan dengan goncangan (yang dahsyat),
+0, 99|2|dan bumi telah mengeluarkan beban-beban berat (yang dikandung)nya,
+0, 99|3|dan manusia bertanya: "Mengapa bumi (menjadi begini)?",
+0, 99|4|pada hari itu bumi menceritakan beritanya,
+0, 99|5|karena sesungguhnya Tuhanmu telah memerintahkan (yang sedemikian itu) kepadanya.
+0, 99|6|Pada hari itu manusia ke luar dari kuburnya dalam keadaan bermacam-macam, supaya diperlihatkan kepada mereka (balasan) pekerjaan mereka,
+0, 99|7|Barangsiapa yang mengerjakan kebaikan seberat dzarrahpun, niscaya dia akan melihat (balasan)nya.
+0, 99|8|Dan barangsiapa yang mengerjakan kejahatan sebesar dzarrahpun, niscaya dia akan melihat (balasan)nya pula.
+1, 100|1|Demi kuda perang yang berlari kencang dengan terengah-engah,
+0, 100|2|dan kuda yang mencetuskan api dengan pukulan (kuku kakinya),
+0, 100|3|dan kuda yang menyerang dengan tiba-tiba di waktu pagi,
+0, 100|4|maka ia menerbangkan debu,
+0, 100|5|dan menyerbu ke tengah-tengah kumpulan musuh,
+0, 100|6|sesungguhnya manusia itu sangat ingkar, tidak berterima kasih kepada Tuhannya,
+0, 100|7|dan sesungguhnya manusia itu menyaksikan (sendiri) keingkarannya,
+0, 100|8|dan sesungguhnya dia sangat bakhil karena cintanya kepada harta.
+0, 100|9|Maka apakah dia tidak mengetahui apabila dibangkitkan apa yang ada di dalam kubur,
+0, 100|10|dan dilahirkan apa yang ada di dalam dada,
+0, 100|11|sesungguhnya Tuhan mereka pada hari itu Maha Mengetahui keadaan mereka.
+1, 101|1|Hari Kiamat,
+0, 101|2|apakah hari Kiamat itu?
+0, 101|3|Tahukah kamu apakah hari Kiamat itu?
+0, 101|4|Pada hari itu manusia adalah seperti anai-anai yang bertebaran,
+0, 101|5|dan gunung-gunung adalah seperti bulu yang dihambur-hamburkan.
+0, 101|6|Dan adapun orang-orang yang berat timbangan (kebaikan)nya,
+0, 101|7|maka dia berada dalam kehidupan yang memuaskan.
+0, 101|8|Dan adapun orang-orang yang ringan timbangan (kebaikan)nya,
+0, 101|9|maka tempat kembalinya adalah neraka Hawiyah.
+0, 101|10|Tahukah kamu apakah neraka Hawiyah itu?
+0, 101|11|(Yaitu) api yang sangat panas.
+1, 102|1|Bermegah-megahan telah melalaikan kamu,
+0, 102|2|sampai kamu masuk ke dalam kubur.
+0, 102|3|Janganlah begitu, kelak kamu akan mengetahui (akibat perbuatanmu itu),
+0, 102|4|dan janganlah begitu, kelak kamu akan mengetahui.
+0, 102|5|Janganlah begitu, jika kamu mengetahui dengan pengetahuan yang yakin,
+0, 102|6|niscaya kamu benar-benar akan melihat neraka Jahiim,
+0, 102|7|dan sesungguhnya kamu benar-benar akan melihatnya dengan ´ainul yaqin.
+0, 102|8|kemudian kamu pasti akan ditanyai pada hari itu tentang kenikmatan (yang kamu megah-megahkan di dunia itu).
+1, 103|1|Demi masa.
+0, 103|2|Sesungguhnya manusia itu benar-benar dalam kerugian,
+0, 103|3|kecuali orang-orang yang beriman dan mengerjakan amal saleh dan nasehat menasehati supaya mentaati kebenaran dan nasehat menasehati supaya menetapi kesabaran.
+1, 104|1|Kecelakaanlah bagi setiap pengumpat lagi pencela,
+0, 104|2|yang mengumpulkan harta dan menghitung-hitung,
+0, 104|3|dia mengira bahwa hartanya itu dapat mengkekalkannya,
+0, 104|4|sekali-kali tidak! Sesungguhnya dia benar-benar akan dilemparkan ke dalam Huthamah.
+0, 104|5|Dan tahukah kamu apa Huthamah itu?
+0, 104|6|(yaitu) api (yang disediakan) Allah yang dinyalakan,
+0, 104|7|yang (membakar) sampai ke hati.
+0, 104|8|Sesungguhnya api itu ditutup rapat atas mereka,
+0, 104|9|(sedang mereka itu) diikat pada tiang-tiang yang panjang.
+1, 105|1|Apakah kamu tidak memperhatikan bagaimana Tuhanmu telah bertindak terhadap tentara bergajah?
+0, 105|2|Bukankah Dia telah menjadikan tipu daya mereka (untuk menghancurkan Ka´bah) itu sia-sia?
+0, 105|3|dan Dia mengirimkan kapada mereka burung yang berbondong-bondong,
+0, 105|4|yang melempari mereka dengan batu (berasal) dari tanah yang terbakar,
+0, 105|5|lalu Dia menjadikan mereka seperti daun-daun yang dimakan (ulat).
+1, 106|1|Karena kebiasaan orang-orang Quraisy,
+0, 106|2|(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas.
+0, 106|3|Maka hendaklah mereka menyembah Tuhan Pemilik rumah ini (Ka´bah).
+0, 106|4|Yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari ketakutan.
+1, 107|1|Tahukah kamu (orang) yang mendustakan agama?
+0, 107|2|Itulah orang yang menghardik anak yatim,
+0, 107|3|dan tidak menganjurkan memberi makan orang miskin.
+0, 107|4|Maka kecelakaanlah bagi orang-orang yang shalat,
+0, 107|5|(yaitu) orang-orang yang lalai dari shalatnya,
+0, 107|6|orang-orang yang berbuat riya,
+0, 107|7|dan enggan (menolong dengan) barang berguna.
+1, 108|1|Sesungguhnya Kami telah memberikan kepadamu nikmat yang banyak.
+0, 108|2|Maka dirikanlah shalat karena Tuhanmu
+0, 108|3|Sesungguhnya orang-orang yang membenci kamu dialah yang terputus.
+1, 109|1|Katakanlah: "Hai orang-orang kafir,
+0, 109|2|Aku tidak akan menyembah apa yang kamu sembah.
+0, 109|3|Dan kamu bukan penyembah Tuhan yang aku sembah.
+0, 109|4|Dan aku tidak pernah menjadi penyembah apa yang kamu sembah,
+0, 109|5|dan kamu tidak pernah (pula) menjadi penyembah Tuhan yang aku sembah.
+0, 109|6|Untukmu agamamu, dan untukkulah, agamaku".
+1, 110|1|Apabila telah datang pertolongan Allah dan kemenangan,
+0, 110|2|dan kamu lihat manusia masuk agama Allah dengan berbondong-bondong,
+0, 110|3|maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampun kepada-Nya. Sesungguhnya Dia adalah Maha Penerima taubat.
+1, 111|1|Binasalah kedua tangan Abu Lahab dan sesungguhnya dia akan binasa.
+0, 111|2|Tidaklah berfaedah kepadanya harta bendanya dan apa yang ia usahakan.
+0, 111|3|Kelak dia akan masuk ke dalam api yang bergejolak.
+0, 111|4|Dan (begitu pula) istrinya, pembawa kayu bakar.
+0, 111|5|Yang di lehernya ada tali dari sabut.
+1, 112|1|Katakanlah: "Dialah Allah, Yang Maha Esa.
+0, 112|2|Allah adalah Tuhan yang bergantung kepada-Nya segala sesuatu.
+0, 112|3|Dia tiada beranak dan tidak pula diperanakkan,
+0, 112|4|dan tidak ada seorangpun yang setara dengan Dia".
+1, 113|1|Katakanlah: "Aku berlindung kepada Tuhan Yang Menguasai subuh,
+0, 113|2|dari kejahatan makhluk-Nya,
+0, 113|3|dan dari kejahatan malam apabila telah gelap gulita,
+0, 113|4|dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul,
+0, 113|5|dan dari kejahatan pendengki bila ia dengki".
+1, 114|1|Katakanlah: "Aku berlindung kepada Tuhan (yang memelihara dan menguasai) manusia.
+0, 114|2|Raja manusia.
+0, 114|3|Sembahan manusia.
+0, 114|4|Dari kejahatan (bisikan) syaitan yang biasa bersembunyi,
+0, 114|5|yang membisikkan (kejahatan) ke dalam dada manusia,
+0, 114|6|dari (golongan) jin dan manusia.

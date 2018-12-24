@@ -16,6 +16,8 @@ stemmer = factory.create_stemmer()
 from nltk.metrics import windowdiff, pk
 
 
+STDEVIATION =0.0009
+
 def c99(sent_tokenized, window=5, K=10):
     model = uts.C99(window=window)
     boundary = model.segment([" ".join(s) for s in sent_tokenized])
@@ -117,11 +119,8 @@ def greedysplit(n, k, sigma):
         #
         # print("pemilihan batas:", min(new_arr))
         # print("sorted batas:", sorted(min(new_arr)[1]))
-        try:
-            new = min(new_arr)
-        except:
-            import pdb
-            pdb.set_trace()
+        new = min(new_arr)
+        print(new_arr)
         new_score.append(new)
         splits = new[1]
         s = new[0]
@@ -188,16 +187,19 @@ def NewSegV1(sent_tokenized, window=5, K=10):
     X_ = len(X)
     cursor = window
     splits = [1]
-    while cursor - window < X_:
+    while cursor - window < X_ and X[i:cursor].shape[0] > 1:
         K = 2
         sig = gensig_model(X[i:cursor])
         # print("window:", window)
         print("trying segment from {} to {}".format(i, cursor))
+        # if X[i:cursor].shape[0] == 1:
+        #     import pdb
+        #     pdb.set_trace()
         spl, e = greedysplit(X[i:cursor].shape[0], K, sig)
 
         stdeviation = np.std([a[0] for a in e])
         print("cut or no:", np.std([a[0] for a in e]), splits, spl)
-        if stdeviation > 0.0206:  #0.0206:
+        if stdeviation > STDEVIATION:  #0.0206:
             i = spl[1]
             if len(splits) == 1:
                 new_seg1 = i
@@ -296,8 +298,8 @@ import argparse
 
 if __name__ == "__main__":
     K = 8
-    isStopWord = [True]
-    isStemmed = [True]
+    isStopWord = [True, False]
+    isStemmed = [True, False]
 
     parser = argparse.ArgumentParser()
     parser.add_argument("model", help="please input the model")
@@ -307,6 +309,11 @@ if __name__ == "__main__":
 
     data = [
         ['data/id.albaqarah.original.txt', 55],
+        ['data/juz_amma.txt', 60],
+        ['data/al-imron.txt', 34],
+        ['data/annisa.txt', 33],
+        ['data/almaaidah.txt', 22],
+        ['data/alanam.txt', 13],
         # ['data/fadhail-amal.txt', 6],
         # ['data/sintesis.detik.txt', 10],
         # ['data/id.albaqarah.cut.txt', 3],
@@ -353,14 +360,14 @@ if __name__ == "__main__":
     # sents, expected = get_albaqarah('id.albaqarah.original.v2.txt')
     stopword = load_stop_words()
 
-    methods = [NewSegV1, OriginalGreedy, c99, text_tiling]
+    methods = [NewSegV1, OriginalGreedy] #OriginalGreedy] #, c99, text_tiling]
     # import pdb
     # pdb.set_trace()
     results = []
     for sw in isStopWord:
         for ist in isStemmed:
             # if sw and ist: #check all true. please remove after finished
-            for window in [6, 8, 10, 15, 20]:
+            for window in [10, 15, 20]:
 
                 for expe in data:
                     sents, expected = load_data(expe[0])
@@ -403,7 +410,9 @@ if __name__ == "__main__":
                             'window': window,
                             'hypt segment': result,
                             'expe segment': expected,
-                            'window diff': diff
+                            'window diff': diff,
+                            'isStemmed': ist,
+                            'isStopped': sw
                         }
                         results.append(record)
                         print(
@@ -419,8 +428,8 @@ if __name__ == "__main__":
     df = pd.DataFrame(results)
     print(df.to_string())
     df.to_csv('df.csv')
-    dfpivot = df.pivot_table(index=['File','window'], columns='Method Name', values='window diff', aggfunc=np.average)
+    dfpivot = df.pivot_table(index=['File','window', 'isStemmed', 'isStopped'], columns='Method Name', values='window diff', aggfunc=np.average)
     dfpivot.to_csv('dfpivot.csv')
     print(dfpivot.to_string())
-    print(df.groupby(['Method Name', 'window']).mean())
+    print(df.groupby(['Method Name', 'window', 'isStemmed', 'isStopped']).mean())
     # dfgroup = df.groupby(['Method Name', 'window']).mean().
