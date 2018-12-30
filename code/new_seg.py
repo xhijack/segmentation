@@ -16,7 +16,7 @@ stemmer = factory.create_stemmer()
 from nltk.metrics import windowdiff, pk
 
 
-STDEVIATION =0.0009
+STDEVIATION =0.02
 
 def c99(sent_tokenized, window=5, K=10):
     model = uts.C99(window=window)
@@ -93,12 +93,13 @@ def greedysplit(n, k, sigma):
         check = []
         result2 = []
         for (a, b) in tools.seg_iter(splits):
+            print("pos {} {}".format(a,b))
             check.append([a, b])
             o, n = sigma(a, b)
             result.append(o)
             result2.append(n)
 
-        # print(result)
+        print("result sigma:", result)
         # print splits, check, sum(result)
         # print(result2, sum(result2))
         # print("--")
@@ -317,8 +318,8 @@ if __name__ == "__main__":
         # ['data/fadhail-amal.txt', 6],
         # ['data/sintesis.detik.txt', 10],
         # ['data/id.albaqarah.cut.txt', 3],
-        # ['data/sintesis.extreme1.txt', 6],
-        # ['data/sintesis.extreme2.txt', 5],
+        # ['data/sintesis.extreme1.txt', 5],
+        # ['data/sintesis.extreme2.txt', 6],
         # ['data/sintesis.extreme3.txt', 8],
         # ['data/sintesis.extreme4.txt', 8],
         # ['data/sintesis.extreme5.txt', 4],
@@ -349,7 +350,7 @@ if __name__ == "__main__":
         # ['data/sintesis.extreme28.txt', 8],
         # ['data/sintesis.extreme29.txt', 9],
         # ['data/sintesis.extreme30.txt', 8],
-
+        #
         # ['data/sintesis.kompas.android.smooth.txt', 7],
         # ['data/sintesis.kompas.android.smooth2.txt', 3],
         # ['data/sintesis.kompas.politik.smooth.txt', 3],
@@ -367,7 +368,7 @@ if __name__ == "__main__":
     for sw in isStopWord:
         for ist in isStemmed:
             # if sw and ist: #check all true. please remove after finished
-            for window in [10, 15, 20]:
+            for window in [6, 10, 15, 20]:
 
                 for expe in data:
                     sents, expected = load_data(expe[0])
@@ -427,9 +428,9 @@ if __name__ == "__main__":
 
     df = pd.DataFrame(results)
     print(df.to_string())
-    df.to_csv('df.csv')
+    df.to_csv('df_quran.csv')
     dfpivot = df.pivot_table(index=['File','window', 'isStemmed', 'isStopped'], columns='Method Name', values='window diff', aggfunc=np.average)
-    dfpivot.to_csv('dfpivot.csv')
+    dfpivot.to_csv('dfpivot_quran.csv')
     print(dfpivot.to_string())
     print(df.groupby(['Method Name', 'window', 'isStemmed', 'isStopped']).mean())
     # dfgroup = df.groupby(['Method Name', 'window']).mean().
