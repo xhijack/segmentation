@@ -334,12 +334,12 @@ if __name__ == "__main__":
         # ['data/sintesis.extreme13.txt', 8],
         # ['data/sintesis.extreme14.txt', 9],
         # ['data/sintesis.extreme15.txt', 7],
-        # ['data/sintesis.extreme16.txt', 7],
-        # ['data/sintesis.extreme17.txt', 8],
+        # ['data/sintesis.extreme16.txt', 6],
+        # ['data/sintesis.extreme17.txt', 7],
         # ['data/sintesis.extreme18.txt', 8],
         # ['data/sintesis.extreme19.txt', 8],
         # ['data/sintesis.extreme20.txt', 7],
-        #
+        # #
         # ['data/sintesis.extreme21.txt', 8],
         # ['data/sintesis.extreme22.txt', 8],
         # ['data/sintesis.extreme23.txt', 8],
@@ -433,4 +433,21 @@ if __name__ == "__main__":
     dfpivot.to_csv('dfpivot_quran.csv')
     print(dfpivot.to_string())
     print(df.groupby(['Method Name', 'window', 'isStemmed', 'isStopped']).mean())
+    # import pdb
+    # pdb.set_trace()
+    df[df['window']==6].groupby(['Method Name', 'isStemmed', 'isStopped']).mean()
+    df[df['window'] == 6].groupby(['Method Name', 'isStemmed', 'isStopped']).mean().to_csv('results/summary_window_6.csv')
+
     # dfgroup = df.groupby(['Method Name', 'window']).mean().
+
+    dfpivot = df[df['window'] == 6].pivot_table(index=['Method Name'], columns=['isStemmed', 'isStopped'], values='window diff', aggfunc=np.average)
+    dfpivot.to_csv('results/summary_window_6.csv')
+
+    dfpivot = df[df['window'] == 10].pivot_table(index=['Method Name'], columns=['isStemmed', 'isStopped'], values='window diff', aggfunc=np.average)
+    dfpivot.to_csv('results/summary_window_10.csv')
+
+    dfpivot = df[df['window'] == 15].pivot_table(index=['Method Name'], columns=['isStemmed', 'isStopped'], values='window diff', aggfunc=np.average)
+    dfpivot.to_csv('results/summary_window_15.csv')
+
+    dfpivot = df[df['window'] == 20].pivot_table(index=['Method Name'],columns=['isStemmed', 'isStopped'],values='window diff', aggfunc=np.average)
+    dfpivot.to_csv('results/summary_window_20.csv')
